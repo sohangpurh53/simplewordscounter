@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.body{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  
+}
+.head{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: oblique;
+  font-size: 100px;
+  font-weight: 250;
+  color: rgb(226, 194, 255);
+}
+
+textarea{
+  background-color:rgb(166, 215, 245);
+  border-radius: 10px;
+  box-shadow: 0 2px rgb(255, 245, 235);
+  font: 15px bold;
+  
+}
+.bg{
+  width: 100%;
+  height: 100vh;
+  background-image: repeating-linear-gradient(45deg, rgb(179, 229, 253), rgb(85, 33, 157))
+  
+  /* background-size: 90%;
+  height: fit-content;
+  background-position: 100%; */
+  
+}
+.button{
+  height: 75px;
+  width: 175px;
+
+  /* border: 4px groove rgb(91, 255, 247);
+  border-radius: 10px;
+  background-color: rgb(21, 197, 80); */
+  padding: 15px 25px;
+  font: 35px times new roman;
+  color: rgb(1, 91, 19);
+  text-align: center;
+  background-color: rgb(59, 216, 77);
+  border-radius: 20px;
+  box-shadow: 0 4px rgb(89, 150, 97);
+  
+}
+.counter{
+  background-image: repeating-radial-gradient(rgb(130, 224, 253), rgba(78, 12, 165, 0.545));
+}
+.counter_head{
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 125px;
+  font-family: 'Times New Roman', Times, serif;
+  color: whitesmoke;
+ 
+  
+}
+
+.instruction{
+  margin-top: 25px;
+  font: 25px Times New Roman;
+  color: whitesmoke;
+  /* font-family: 'Times New Roman', Times, serif; */
+
+}

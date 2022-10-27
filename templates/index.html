@@ -1,0 +1,30 @@
+<html> 
+    <div class="bg">
+       
+        
+        
+    <head>
+        
+        <link rel="stylesheet" href="/static/css/style.css">
+        <!-- <link rel="stylesheet" href="/static/image/style.css"> -->
+    
+    </head>
+        <h1 class="head" style="text-align:center; ">Welcome to word counter </h1 style="text-align: ;center">
+            <head> <h4 class="instruction"> Please insert word using space between sentences</h4> </head> 
+    <body class="body" > 
+        <div >
+         <!-- <h1> Word counter </h1> -->
+         <br>
+        <form method="POST" action="counter" >
+        {% csrf_token %}
+        <textarea  name="words" cols="100" rows="20" > </textarea> 
+        <br>
+        <br>
+         <input class="button" type="submit"> 
+   </form>
+</div>
+    </body>   
+    
+</div>
+
+</html>
